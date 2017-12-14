@@ -1,7 +1,56 @@
 #container {
-    margin: auto;
+    margin: 50px auto;
     width: 50%;
-    border: 3px solid green;
+    height: 50%;
+    border: 3px solid black;
     padding: 10px;
 }
 
+/* button[value="equals"]{order: 0;}
+button[data-value="clear"]{order: 2;}
+button[value="0"]{order: 1};
+button[value="1"]{order: 3};
+button[value="2"]{order: 4};
+button[value="3"]{order: 5};
+button[value="4"]{order: 6};
+button[value="5"]{order: 7};
+button[value="6"]{order: 8};
+button[value="7"]{order: 9};
+button[value="8"]{order: 10};
+button[value="9"]{order: 11};
+button[value="multiply"]{order: 12};
+button[value="divide"]{order: 13};
+button[value="subtract"]{order: 14};
+button[value="add"]{order: 15}; */
+
+
+
+
+button {
+    /* justify-content: space-around; */
+    margin: 5px;
+    width: 20%;
+    height: 30px;
+    border: 1px solid black;
+    padding: 3px;
+    background: rgb(209, 209, 209);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+output {
+    margin: 10px;
+    height: 20px;
+
+    width: 80%;
+    border: 1px solid black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 100px;
+    padding-right: 200px;
+    background: transparent;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button[name="number"] {
+    background:  #eee8ee;
+}

@@ -12,6 +12,7 @@ function operate(operator, num1, num2){
     } else if (operator === "subtract"){
         return subtract(num1, num2);
     } else {
+        return displayValue;
         console.log("no operator")
     }
 }
